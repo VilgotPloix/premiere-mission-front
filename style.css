@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+svg
+{
+	width: 10%;
+	height: 10%;
+	color: #E09E04;
+}
+
+li
+{ 
+list-style: none }
+
+.bleu
+{
+	color: blue;
+}
+
+nav
+{
+	border: none;
+}
+
+.footer
+{
+	height: 200px;
+	width: 100%;
+}
+
+.svg
+{
+	width: 50%;
+	height: 50%;
+}
+
+
+
+.liens
+{
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.putain
+{
+	margin: 10px;
+	position: relative;
+	bottom: 30px;
+}
+
+.icons
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ico
+{
+	margin: 15px;
+	position: relative;
+	bottom: 120px;
+}
+
+.mentions
+{
+	text-align: center;
+	position: relative;
+	bottom: 120px;
+}
+
+.logo
+{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 20px;
+}
+
+.total
+{
+	width: 400px;
+	margin: 20px;
+}
+
+
+.form
+{
+	animation: bgani 5s infinite alternate;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@keyframes bgani
+{
+	0%
+	{
+		background-color: #6C6352
+	}
+
+	20%
+	{
+		background-color: #776D5A;
+	}
+
+	40%
+	{
+		background-color: #987D7C;
+	}
+
+	60%
+	{
+		background-color: #A09CB0;
+	}
+
+	80%
+	{
+		background-color: #A3B9C9;
+	}
+
+	100%
+	{
+		background-color: #ABDAE1
+	}
+}
+
+.form_co
+{
+	animation: bgani2 5s infinite alternate;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@keyframes bgani2
+{
+	0%
+	{
+		background-color: #CA6141
+	}
+
+	20%
+	{
+		background-color: #DE6B48;
+	}
+
+	40%
+	{
+		background-color: #E5B181;
+	}
+
+	60%
+	{
+		background-color: #F4B9B2;
+	}
+
+	80%
+	{
+		background-color: #DAEDBD;
+	}
+
+	100%
+	{
+		background-color: #7DBBC3
+	}
+}
+
+.gif
+{
+	width: 100%;
+	z-index: 1;
+}
+
+.titre
+{
+	z-index: 2;
+	position: relative;
+	top: 550px;
+	left: 100px;
+	font-size: 2.5em;
+	color: #D8B268ff;
+	font-family: 'Raleway', sans-serif;
+}
+
