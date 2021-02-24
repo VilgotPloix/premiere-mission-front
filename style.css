@@ -177,14 +177,168 @@ nav
 	z-index: 1;
 }
 
+
+
+
+
 .titre
 {
 	z-index: 2;
 	position: relative;
 	top: 550px;
-	left: 100px;
-	font-size: 2.5em;
-	color: #D8B268ff;
+	display: flex;
+	justify-content: center;
+	font-size: 3.6em;
+	color: #FE1354;
 	font-family: 'Raleway', sans-serif;
+	animation: glow 2s ease-in-out infinite alternate;
 }
 
+@keyframes glow {
+    from {
+      text-shadow: 0 0 20px #2d9da9;
+    }
+    to {
+      text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
+    }
+  }
+
+
+.cards
+{
+	width: 400px;
+	height: 450px;
+	border-radius: 0px 20px 0px 20px;
+	border: 1px solid black;
+	overflow: hidden;
+	padding: 0px;
+}
+
+.page2
+{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.haut
+{
+	width: 100%;
+	height: 40%;
+	border: 1px solid black;
+	border-radius: 0px 20px 0px 0px;
+	
+
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.page3
+{
+	width: 100%;
+	height: 150vh;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.carte
+{
+	width: 80%;
+	height: 1000px;
+	background-color: white;
+	position: relative;
+	bottom : 200px;
+	border-radius: 0px 50px 0px 50px;
+}
+
+.top
+{
+	width: 100%;
+	height: 30%;
+	background-image: url(img/party.png);
+	border-radius: 0px 50px 0px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.emma
+{
+	font-size: 4em;
+	font-weight: 100;
+	color: white;
+}
+
+.bas
+{
+	width: 100%;
+	height: 70%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.cadre1
+{
+	width: 48%;
+	height: 45%;
+	border: 1px solid black;
+	border-radius: 0px 20px 0px 20px;
+}
+
+.topcadre
+{
+	width: 100%;
+	height: 40%;
+	background-color: black;
+	border-radius: 0px 20px 0px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bascadre
+{
+	width: 100%;
+	height: 55%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.bascadre h2, form
+{
+	width: 100%;
+	margin: 0px;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	bottom: 15px;
+}
+
+.wow
+{
+	width: 100%;
+	position: relative;
+	top: 20px;
+}
+
+.yenamar
+{
+	width: 100%;
+	position: absolute;
+	bottom: 200px;
+	right: 0px;
+}
